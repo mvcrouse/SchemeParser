@@ -32,7 +32,7 @@
 ;          (else 8))
 ;=> 8
 
-;Example 5: '***' is the symbol for continuing the list, so if the list contains +++ it assumes you don't
+;Example 5: '***' is the symbol for continuing the list, so if the list contains *** it assumes you don't
 ;           care about whatever else is in the list
 ;> (eMatch (lambda (x y z) z)
 ;          ((lambda (z) z) 5)
